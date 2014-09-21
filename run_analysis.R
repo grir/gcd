@@ -20,7 +20,7 @@ tf1 <- cbind(t1, t1y[,1])
 names(tf1) <- c(featureNames$V2, "activitylabels")
 ##################################################################
 
-#Load and merge test data:
+#Load and merge training data:
 t2 <- read.table("train/X_train.txt", header = FALSE) 
 t2y <- read.table("train/y_train.txt", header = FALSE) 
 #bind t1 and  corresponding activity labels:
