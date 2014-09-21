@@ -1,6 +1,6 @@
 CodeBook.md
 ===
-Most important variables availbe after the running of the script "run_analysis.R":
+Most important variables availble after the running of the script "run_analysis.R":
  + <b>actLabels</b> - activity labels loaded from the  file "activity_labels.txt";
  + <b>featureNames</b> - loaded and edited feature names fromthe file  "features.txt";
  + <b>tf1</b> - test data set;
