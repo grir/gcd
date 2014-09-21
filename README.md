@@ -11,7 +11,7 @@ The script "run_analysis.R" is working as follows:
 7. Calculates means and standard deviations (variables "stdDev" and "means")
 8. Adds activity labels to the data frame "full" #Labeling with the activity names;
 9. Creates a  new set "newData" as specified in p. 5 of the assignment;
-10. Writes "newData" to file "new_data.txt"
+10. Writes "newData" to the file "new_data.txt"
 
 
 
