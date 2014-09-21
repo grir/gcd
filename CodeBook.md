@@ -7,7 +7,7 @@ Most important variables available after the running of the script "run_analysis
  + <b>tf2</b> - training data set;
  + <b>full</b> - merged tf1 and tf2;
  + <b>stdDev</b> - standard deviations and means specified in p.2 of the assignment;
- + <b>newData</b> - new tidy data set as specified in p.5 of the assignment;
+ + <b>newData</b> - new tidy data set as specified in p.5 of the assignment.
 
 
 
