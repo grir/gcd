@@ -1,13 +1,9 @@
 gcd
 ===
-#clear all:
-rm(list=ls())
+The script "run_analysis.R" is working as follows:
 
-#Load activity labels:
-actLabels <- read.table("activity_labels.txt", header = FALSE)
-
-#Load and edit feature names:
-featureNames <- read.delim("features.txt", header = FALSE, sep=" ")
+1. Loads activity labels fromthe file  "activity_labels.txt";
+2. Loads and edits feature names from the file "features.txt";
 featureNames$V2 <- gsub("-", "", featureNames$V2)
 featureNames$V2 <- gsub(",", "_", featureNames$V2)
 featureNames$V2 <- gsub("\\(", "", featureNames$V2)
